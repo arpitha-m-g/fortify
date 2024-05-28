@@ -12,6 +12,7 @@ jobs:
         with:
           repository: fortify
           ref: main
+      - name: clean the repo
         run: 
           rm -rf /samplecode/demo/script.sh
           ls -l
