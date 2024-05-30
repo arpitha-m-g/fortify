@@ -14,7 +14,6 @@ jobs:
         run: 
           rm -rf /samplecode/demo/script.sh
           
-        
       - uses: actions/setup-java@v4
         with:
           distribution: 'temurin' # See 'Supported distributions' for available options
