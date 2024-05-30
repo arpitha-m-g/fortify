@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          repository: fortify
+          repository: arpitha-mg/fortify
           ref: main
           
       - name: clean the repo
