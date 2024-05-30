@@ -9,9 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          repository: arpitha-m-g/fortify
-          ref: main
           
       - name: clean the repo
         run: 
