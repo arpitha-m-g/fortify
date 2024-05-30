@@ -13,7 +13,7 @@ jobs:
       - name: clean the repo
         run: 
           rm -rf /samplecode/demo/script.sh
-          ls -l
+          
         
       - uses: actions/setup-java@v4
         with:
