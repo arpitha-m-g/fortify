@@ -28,7 +28,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           
-          wget -o $RUNNER_TEMP/fcli.jar "https://github.com/fortify/fcli/releases/download/v2.4.0/fcli.jar"
+          wget -o $RUNNER_TEMP/fcli.jar "https://github.com/fortify/fcli/releases/download/v2.1.0/fcli.jar"
           java -jar fcli.jar --version
           java -jar fcli.jar fod session login -u arpitha -p password -t sample --insecure --url https://ams.fortify.com
         
